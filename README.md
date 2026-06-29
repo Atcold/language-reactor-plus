@@ -1,8 +1,7 @@
 # Language Reactor Plus
 
 A [Tampermonkey](https://www.tampermonkey.net/) userscript that adds missing controls to
-[Language Reactor](https://www.languagereactor.com/) (the Netflix/YouTube language-learning
-overlay, formerly Language Learning with Netflix). An umbrella for small enhancements; more
+[Language Reactor](https://www.languagereactor.com/). An umbrella for small enhancements; more
 features will land over time.
 
 ## Features
