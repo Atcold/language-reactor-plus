@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Language Reactor Plus
 // @namespace    https://github.com/Atcold/language-reactor-plus
-// @version      1.4
+// @version      1.5
 // @description  Supercharges Language Reactor. Feature 1: persistent, resizable subtitles (learning + translation lines) with fixed centring, in standard and fullscreen modes.
 // @author       Alfredo Canziani
 // @match        *://www.languagereactor.com/*
@@ -33,6 +33,7 @@
             .media-wrap .lln-word, .media-wrap .dc-layer { display: inline-block !important; vertical-align: bottom !important; margin: 0 0.15em !important; text-align: center !important; width: auto !important; }
             .media-wrap .sentence-row, .media-wrap .sentence-view { display: inline-block !important; white-space: nowrap !important; width: auto !important; max-width: 98vw !important; margin: 0 auto !important; }
             .media-wrap .MuiPaper-root, .media-wrap .sentence-wrap-main { background-color: transparent !important; box-shadow: none !important; border: none !important; }
+            .media-wrap .lln-orange-outline .dc-hover::before { border-color: rgba(140, 67, 0, 1) !important; }
         `;
         localStorage.setItem('sub-zh-size', zhV);
         localStorage.setItem('sub-en-size', enV);
